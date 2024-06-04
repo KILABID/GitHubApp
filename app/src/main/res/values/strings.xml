@@ -1,0 +1,28 @@
+<resources>
+    <string name="app_name">GitHub</string>
+    <string name="searchbar_hint">Masukkan Nama</string>
+    <string name="test">test</string>
+    <string name="search">Search</string>
+    <string name="follower">Follower</string>
+    <string name="following">Following</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="username">Username</string>
+    <string name="noFollowing">This users do not follow anyone</string>
+    <string name="noFollower">This user has no followers</string>
+    <string name="dataFollower">10</string>
+    <string name="tvFollower">Follower</string>
+    <string name="tvFollowing">Following</string>
+    <string name="tvRepos">Repos</string>
+    <string name="dataRepos">8</string>
+    <string name="dataFollowing">8</string>
+    <string name="descProfile">Foto Profile</string>
+    <string name="descLogoSplash">Logo</string>
+    <string name="desc_tvusername">desc tvusername</string>
+    <string name="dataName">name</string>
+    <string name="Favorite_Button">Favorite Button</string>
+    <string name="mau_nyari_siapa">mau nyari siapa?</string>
+    <string name="no_favorite">No Favorite</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="theme">Theme</string>
+</resources>

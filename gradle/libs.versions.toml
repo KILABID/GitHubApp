@@ -1,0 +1,58 @@
+[versions]
+agp = "8.3.1"
+datastorePreferences = "1.0.0"
+kotlin = "1.9.0"
+coreKtx = "1.12.0"
+junit = "4.13.2"
+junitVersion = "1.1.5"
+espressoCore = "3.5.1"
+appcompat = "1.6.1"
+kotlinxCoroutinesAndroid = "1.7.1"
+kotlinxCoroutinesCore = "1.6.4"
+lifecycleViewmodelKtxVersion = "2.7.0"
+material = "1.11.0"
+activity = "1.8.2"
+constraintlayout = "2.1.4"
+devtoolsVersion = "1.9.21-1.0.16"
+asyncVersion = "1.4.11"
+retrofit = "2.11.0"
+retrofitConverter = "2.11.0"
+glideVersion = "4.16.0"
+interceptor = "4.12.0"
+livedaataVersion = "2.7.0"
+viewPagerVersion = "1.0.0"
+roomDatabaseVersion = "2.6.1"
+lifecycleRuntimeKtx = "2.7.0"
+
+[libraries]
+androidx-core-ktx = { group = "androidx.core", name = "core-ktx", version.ref = "coreKtx" }
+androidx-datastore-preferences = { module = "androidx.datastore:datastore-preferences", version.ref = "datastorePreferences" }
+androidx-lifecycle-viewmodel-ktx = { module = "androidx.lifecycle:lifecycle-viewmodel-ktx", version.ref = "lifecycleViewmodelKtxVersion" }
+androidx-room-compiler = { module = "androidx.room:room-compiler", version.ref = "roomDatabaseVersion" }
+androidx-room-ktx = { module = "androidx.room:room-ktx", version.ref = "roomDatabaseVersion" }
+junit = { group = "junit", name = "junit", version.ref = "junit" }
+androidx-junit = { group = "androidx.test.ext", name = "junit", version.ref = "junitVersion" }
+androidx-espresso-core = { group = "androidx.test.espresso", name = "espresso-core", version.ref = "espressoCore" }
+androidx-appcompat = { group = "androidx.appcompat", name = "appcompat", version.ref = "appcompat" }
+kotlinx-coroutines-android = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-android", version.ref = "kotlinxCoroutinesAndroid" }
+kotlinx-coroutines-core = { module = "org.jetbrains.kotlinx:kotlinx-coroutines-core", version.ref = "kotlinxCoroutinesCore" }
+material = { group = "com.google.android.material", name = "material", version.ref = "material" }
+androidx-activity = { group = "androidx.activity", name = "activity", version.ref = "activity" }
+androidx-constraintlayout = { group = "androidx.constraintlayout", name = "constraintlayout", version.ref = "constraintlayout" }
+asyncHttp = {group = "com.loopj.android", name = "android-async-http", version.ref = "asyncVersion"}
+retrofit = {group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofit"}
+retrofitConverter = {group = "com.squareup.retrofit2", name = "converter-gson", version.ref = "retrofitConverter"}
+glide = {group = "com.github.bumptech.glide", name = "glide", version.ref = "glideVersion"}
+interceptor  = {group = "com.squareup.okhttp3", name = "logging-interceptor", version.ref = "interceptor" }
+#viewmodel = {group = "androidx.lifecycle", name = "lifecycle-viewmodel-ktx", version.ref = "viewmodelVersion"}
+livedata = {group = "androidx.lifecycle", name = "lifecycle-livedata-ktx", version.ref = "livedaataVersion"}
+viewPager = {group = "androidx.viewpager2", name = "viewpager2", version.ref = "viewPagerVersion"}
+roomRuntimeDatabase = {group = "androidx.room", name = "room-runtime", version.ref = "roomDatabaseVersion"}
+androidx-lifecycle-runtime-ktx = { group = "androidx.lifecycle", name = "lifecycle-runtime-ktx", version.ref = "lifecycleRuntimeKtx" }
+
+[plugins]
+androidApplication = { id = "com.android.application", version.ref = "agp" }
+jetbrainsKotlinAndroid = { id = "org.jetbrains.kotlin.android", version.ref = "kotlin" }
+devtoolsKsp = {id = "com.google.devtools.ksp", version.ref = "devtoolsVersion"}
+
+
